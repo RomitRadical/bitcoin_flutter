@@ -8,8 +8,14 @@ environment:
   sdk: ">=2.3.0 <3.0.0"
 
 dependencies:
-  bip39: ^1.0.3
-  bip32: ^1.0.5
+  bip39:
+    git:
+      url: https://github.com/RomitRadical/bip39
+      ref: master
+  bip32:
+    git:
+      url: https://github.com/jbdtky/bip32-dart
+      ref: master
   pointycastle:
     git:
       url: https://github.com/jbdtky/pc-dart.git
